@@ -1,0 +1,12 @@
+# files
+__pycache__/
+*.py[cod]
+.vscode
+*.pyc
+*.lock
+
+# folders
+bin
+include
+lib
+lib64

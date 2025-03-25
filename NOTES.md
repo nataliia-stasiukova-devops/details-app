@@ -23,3 +23,10 @@ pip install watchdog -> to detect focus changes and restart Flask
 python3 src/details/app.py
 or: flask run
 or: flask --debug run
+
+- example of dynamic import:
+    ```html
+    <link href="{{url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+
+
+
